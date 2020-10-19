@@ -12,10 +12,10 @@ from apscheduler.schedulers.background import BackgroundScheduler
 app = Flask(__name__)
 # slack verification token
 slack_events_adapter = SlackEventAdapter(
-    "ff67dfd0cd4e30d537d9946d3e1f9278", "/slack/events", app)
+    "***", "/slack/events", app)
 # slack bot user oauth access token
 slack_web_client = WebClient(
-    token="xoxb-1402753062691-1412556862820-75ByznqwuGoLZ5IYVBFfkZXQ")
+    token="***")
 
 # Dictionary to store daily reports
 daily_reports = {}
